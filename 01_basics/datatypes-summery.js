@@ -46,3 +46,18 @@ const myFunctionfunction(){
 //how to know datatypes
 
 console.log(typeof );
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive is used), Heap(non primitive is used)
+// stack memory is used then a copy of original value  is formed. 
+//heap memory is used then refrence is formed of original value.
+
+
+let myname = "saurav";
+
+
+let anotheName = myname
+
+console.log(anotheName)
